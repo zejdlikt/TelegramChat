@@ -76,8 +76,8 @@ public class Main extends JavaPlugin implements Listener {
 				connectionLost = !telegramHook.getUpdate();
 			}
 		}, 10L, 10L);
-
-		new Metrics(this);
+// No Matrics to be sent
+//		new Metrics(this);
 	}
 
 	@Override
